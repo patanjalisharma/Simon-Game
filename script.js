@@ -9,10 +9,11 @@ let started = false;
 let h2 = document.querySelector("h2");
 
 document.addEventListener("keypress", function () {
-    if (started == false);
+    if (!started){
     console.log("Game is started");
     started = true;
     levelup();
+    }
 })
 
 
